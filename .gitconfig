@@ -1,0 +1,16 @@
+[user]
+	name = Nicole Yee
+	email = n.lindsey.yee@gmail.com
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	visual = !gitk
+[core]
+	editor = /usr/bin/vim
+	excludesfile = /Users/nicoleyee/.gitignore_global
+[pull]
+	rebase = true
