@@ -1,4 +1,4 @@
-set nocompatible
+et nocompatible
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -10,6 +10,8 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'mru.vim'
 Plugin 'Align'
 Plugin 'darthmall/vim-vue'
+Plugin 'yalesov/vim-emblem'
+Plugin 'sheerun/vim-polyglot'
 
 call vundle#end()
 filetype plugin indent on
